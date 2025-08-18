@@ -1,0 +1,5 @@
+data/
+src.egg-info/
+logs.log
+src/__pycache__/
+.env
