@@ -4,9 +4,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # ---- Load dataset ----
-df = pd.read_csv("/Users/asani/Downloads/HDWRA/alerrt_fissa/data/cleaned_fissa_gambia_data.csv", parse_dates=["date_inc"])
+df = pd.read_csv(os.getenv('CLEAN_DATA_FILE_PATH'),  parse_dates=["date_inc"])
 df["sexe"] = df["sexe"].map({1: "Male", 2: "Female"})
 
 # ---- Sidebar ----
