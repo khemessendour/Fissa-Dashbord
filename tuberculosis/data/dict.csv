@@ -1,0 +1,81 @@
+Variable / Field Name,Field Type,Field Label
+q1_pre_tb,text,1) Participant ID
+q1a_pre_tb,text,1a) Hospital Record Identification
+q2_pre_tb,text,2) Date
+q3_pre_tb,text,3) Patient's initials
+q4_pre_tb,yesno,4) Is date of birth known
+q4a_pre_tb,text,4a) Date of birth
+q4b_pre_tb,calc,4b) Age
+q4c_pre_tb,calc,4c) Age
+q5_pre_tb,yesno,5) Is age known
+q5b_pre_tb,text,"5b) Age if up to 5 years, enter in months"
+q6_pre_tb,text,"6) Age if more than 5 years, enter in years"
+q7_pre_tb,radio,7) Sex
+q8_pre_tb,radio,8) Cough
+q9_pre_tb,radio,9) Productive
+q10_pre_tb,radio,10) Chest pain
+q11_pre_tb,radio,11) Wheeze 
+q12_pre_tb,radio,12) Fever/Chills
+q13_pre_tb,radio,13) Loss/failure to gain weight
+q14_pre_tb,radio,14) Difficulty with breathing
+q15_pre_tb,radio,15) Night sweats
+q16_pre_tb,radio,16) Side pain
+q17_pre_tb,radio,17) Malaise/Fatique
+q18_pre_tb,radio,18) Loss of appetite
+q19_pre_tb,radio,19) Haemoptysis
+q20_pre_tb,radio,20) Vomiting
+q21_pre_tb,radio,21) Previous history of and treatment for TB
+q22_pre_tb,text,22) Date of previous history/treatment for TB
+q23_pre_tb,radio,23) Pallor
+q24_pre_tb,radio,24) Splenomegaly
+q25_pre_tb,radio,25) jaundice
+q26_pre_tb,radio,26) Hepatomegaly
+q27_pre_tb,radio,27) Wasting
+q28_pre_tb,radio,28) Dyspnoea
+q29_pre_tb,radio,29) Lethargy
+q30_pre_tb,radio,30) Abdominal distension or mass
+q31_pre_tb,radio,31) Lymphadenopathy in the neck
+q32_pre_tb,yesno,32) Is patient's temperature known
+q32b_pre_tb,text,32b) Temperature
+q33_pre_tb,yesno,33) Is patient's weight known
+q33b_pre_tb,text,33b) Weight
+q34_pre_tb,yesno,34) Is patient's height known
+q34b_pre_tb,text,34b) Height
+q35_pre_tb,yesno,35) Is patient's mid upper arm circumference known
+q35b_pre_tb,text,35b) Mid upper arm circumference
+q36_pre_tb,yesno,36) Other clinical signs
+q36a_pre_tb,text,36a) Specify other clinical signs
+q37_pre_tb,text,37) Respiratory rate
+q38_pre_tb,radio,38) Subcostal recession
+q39_pre_tb,radio,39) Dullness
+q40_pre_tb,radio,40) Crepitation
+q41_pre_tb,radio,41) Bronchial breathing
+q42_pre_tb,radio,42) Rhonchi
+q43_pre_tb,radio,43) Reduced breath sounds
+q44_pre_tb,yesno,44) Any other abnormality
+q44a_pre_tb,text,44a) Specify Abnormality
+q45_pre_tb,radio,45) Site of abnormality
+q46_pre_tb,yesno,46) Chest X-ray done
+q47_pre_tb,text,47) Chest X-ray date
+q48_pre_tb,radio,48) Chest X-ray quality
+q49_pre_tb,radio,49) Assessment
+q50_pre_tb,yesno,50) Other X-ray diagnoses
+q50a_pre_tb,text,50a) Specify
+q51_pre_tb,radio,51) Type of specimen
+q52_pre_tb,radio,52) Specimen result
+q53_pre_tb,text,53) Specimen date
+q54_pre_tb,radio,"54) If sputum, type of sputum"
+q55_pre_tb,radio,55) GeneXpert MTB DNA detection result
+q56_pre_tb,radio,56) GeneXpert Rifampicin resistance result
+q57_pre_tb,radio,57) MGIT culture result
+q58_pre_tb,yesno,58) Any other mycobacteria
+q58a_pre_tb,text,58a) Specify other mycobactera
+q59_pre_tb,text,59) Date when positive
+q60_pre_tb,text,60) Time when positive
+q61_pre_tb,radio,61) Tissue histology result
+q62_pre_tb,radio,62) HIV serology
+q63_pre_tb,radio,63) Diagnosis
+q64_pre_tb,text,"64) If EPTB, specify site"
+q65_pre_tb,text,"65) If not TB, specify diagnosis"
+q66_pre_tb,yesno,66) Is patient referred for anti-TB treatment
+appuser,text,67) appuser
